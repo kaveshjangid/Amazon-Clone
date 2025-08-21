@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border:1.5px solid rgb(255, 255, 255);
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.add-sec {
+    font-size: 1rem;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(254, 161, 0, 0.359);
+    font-size: 1.2rem;
+}
+
+.nav-signin {
+    color: #f3f3f3;
+}
+
+.nav-signin span {
+    font-size: 0.85rem;
+}
+
+.nav-signin p {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 1rem;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-all {
+    margin-left: 5px;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+
+
+.hero-section {
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box {
+    border:2px solid white;
+    height: 400px;
+    width: 23%;
+    background: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 370px;
+    background-image: cover;
+    margin-top: 10px;
+
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
